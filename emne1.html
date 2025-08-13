@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+    <html lang="no">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Nettside</title>
+        </head>
+        <body>
+            <header>
+                <div>
+                    <h1 class="heading">Nettside</h1>
+                    <h2 class="subheading">Overskrift</h2>
+                    <p>Dette er et avsnitt med tekst.</p>
+                </div>
+            </header>
+            <hr>
+            <div>
+                <h3 class="smallheading">Liste 1:</h3>
+                <ol>
+                    <li>Nummer 1</li>
+                    <li>Nummer 2</li>
+                    <li>Nummer 3</li>
+                </ol>
+            </div>
+            <div>
+                <h3 class="smallheading">Liste 2:</h3>
+                <ul>
+                    <li>Punkt 1</li>
+                    <li>Punkt 2</li>
+                    <li>Punkt 3</li>
+                </ul>
+            </div>
+            <hr>
+            <br>
+            <div>
+            <a href="https://www.google.com" target="_blank">Dette er en lenke</a>
+            </div>
+            <br>
+            <hr>
+            <div>
+                <h3 class="smallheading">Bildeeksempel:</h3>
+                <img src="url" alt="Dette er et bilde" width="200" height="250">
+            </div>
+            <br>
+            <hr>
+            <div>
+                <h3 class="smallheading">Tabell</h3>
+                <table>
+                    <tr class="tablenumbers">
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                    </tr>
+                    <tr>
+                        <td>X</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td>Y</td>
+                        <td>Y</td>
+                        <td>Y</td>
+                    </tr>
+                    <tr>
+                        <td>Z</td>
+                        <td>Z</td>
+                        <td>Z</td>
+                    </tr>
+                </table>
+            </div>
+            <br>
+            <hr>
+            <div>
+                <h3 class="smallheading">Favoritt</h3>
+                <p>Velg:</p>
+                <form>
+                    <input type="radio" id="bokstavx" name="bokstaver" value="X"> <label for="bokstavx">X</label><br>
+                    <input type="radio" id="bokstavy" name="bokstaver" value="Y"> <label for="bokstavy">Y</label><br>
+                    <input type="radio" id="bokstavz" name="bokstaver" value="Z"> <label for="bokstavz">Z</label>
+                </form>
+                <br>
+                <input type="submit" id="bokstavknapp" value="Send inn">
+            </div>
+            <div>
+                <h3 class="smallheading">Sjekkpunkter</h3>
+                <p>Huk av:</p>
+                <form>
+                    <input type="checkbox" id="valg1" name="valg" value="Valg 1"><label for="valg1">Valg 1</label>
+                    <input type="checkbox" id="valg2" name="valg" value="Valg 2"><labe for="valg2">Valg 2</label>
+                    <input type="checkbox" id="valg3" name="valg" value="Valg 3"><label for="valg3">Valg 3</label>
+                </form>
+                <br>
+                <br>
+                <input type="submit" id="valgknapp" name="knapp2" value="Send inn">
+            </div>
+            <br>
+            <hr>
+            <footer>
+                <p>Bunntekst</p>
+            </footer>
+            <br>
+            <style>
+                body {
+                    background-color: #202020;
+                    margin: auto;
+                    width: 50%;
+                    border-style: solid;
+                    border-color: black;
+                    border-width: 5px;
+                    padding: 45px;
+                }
+
+                p {
+                    color: lightgrey
+                }
+
+                hr {
+                    border: 1px dotted black;
+                }
+
+                a {
+                    color: orange;
+                    text-decoration: none;
+                }
+
+                a:hover {
+                    color: yellow;
+                }
+
+                .heading {
+                    font-size: 50px;
+                    color: white;
+                    background-color: #303030;
+                    text-align: Center;
+                    padding: 15px;
+                    margin-bottom: 50px;
+                    letter-spacing: 0.4rem;
+                    font-family: sans-serif, Times New Roman;
+                }
+
+                .subheading {
+                    color: lightgoldenrodyellow
+                }
+
+                .smallheading {
+                    color: white;
+                }
+
+                img, ol, ul, table, form {
+                    color: lightgrey;
+                }
+
+                table {
+                    border-style: dotted dashed solid double;
+                    border-color: lightcyan;
+                    width: 60%;
+                    text-align: center;
+                }
+
+                .tablenumbers {
+                    background-color: gray;
+                    color: white
+                }
+
+                footer p {
+                    color: yellow;
+                    font-family: Courier, sans-serif;
+                    font-size: 0.8rem;
+                    letter-spacing: 2px;
+                }
+            </style>
+        </body>
+    </html>
